@@ -2,15 +2,18 @@
 
 # Sobre o projeto
 
-Gerenciador de salas de reunião, um projeto desenvolvido com Spring Boot, disponibilizando uma API para ser comsumida por um Front End SPA em angular, 
-usando todo o poder do Spring Data para persistencia de dados e o banco in-memory H2. 
+Gerenciador de salas de reunião, projeto desenvolvido com Spring Boot, API Rest para ser comsumida por um Front-End SPA em angular, 
+usamos Spring Data para persistencia de dados e o banco in-memory H2, no Front temos as dependencias do bootstrap CSS e font-awesome para o desenho das telas. 
+
+link para repositório da API spring boot:
+<https://github.com/jbdrumond/meeting-room.git>
 
 
-## SPA Angular
-![Web 2](https://github.com/jbdrumond/assets/blob/1aa063a110eec4d7bff970f8b5492a7968672c53/list%20room.png)
+## SPA Angular - print rota inicial 
+![Web 1](https://github.com/jbdrumond/assets/blob/1aa063a110eec4d7bff970f8b5492a7968672c53/list%20room.png)
 
-## Creat 
-![Web 1](https://github.com/jbdrumond/assets/blob/1aa063a110eec4d7bff970f8b5492a7968672c53/create%20room.png) 
+## Create Room - print rota create 
+![Web 2](https://github.com/jbdrumond/assets/blob/1aa063a110eec4d7bff970f8b5492a7968672c53/create%20room.png) 
 
 
 
