@@ -1,45 +1,37 @@
-# ClientRoom
+# Meeting room Angular 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.7.
+# Sobre o projeto
 
-## Development server
+Gerenciador de salas de reunião, um projeto desenvolvido com Spring Boot, disponibilizando uma API para ser comsumida por um Front End SPA em angular, 
+usando todo o poder do Spring Data para persistencia de dados e o banco in-memory H2. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Tecnologias utilizadas
+## Front end
+- Angular 
+- bootstrap
+- font-awesome
+- karma 
 
-## Build
+## Back end
+- Java
+- Spring Boot
+- h2 
+- JPA 
+- Maven 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Implantação dev
+- Back end: localhost:8082
+- Front end web: localhost:4200
+- Banco de dados: h2 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# Autor
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## verificar vesao nodejs
-node -v
-
-### verificar versao npm 
-npm -v
-
-### instalar angular 9
-npm install -g @angular/cli@9.0.0-rc.7
-
-### verificar versao angular
-ng --version
-
-### criar projeto 
-ng new client-room
+José Brasil Drumond Filho
 
 
 
