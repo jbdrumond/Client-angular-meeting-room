@@ -1,0 +1,23 @@
+
+<div class="header bg-primary p-3">
+      <h2 class="text-white"> Room Details</h2>
+</div>
+<hr/>
+<div *ngIf="room">
+  <div>
+    <label><b>Name:</b></label> {{room.name}}
+  </div>
+  <div>
+    <label><b> Date:</b></label> {{room.date}}
+  </div>
+  <div>
+    <label><b> StartHour:</b></label> {{room.startHour}}
+  </div>
+    <div>
+    <label><b> EndHour:</b></label> {{room.endHour}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-secondary">Back to Room List</button><br>
